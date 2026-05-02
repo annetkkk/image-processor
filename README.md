@@ -29,3 +29,29 @@
 
 ```bash
 ./image_processor input.bmp output.bmp -crop 800 600 -gs -blur 0.5
+
+В этом примере программа:
+
+1. читает input.bmp;
+2. обрезает изображение до 800×600;
+3. переводит его в оттенки серого;
+4. применяет размытие;
+5. сохраняет результат в output.bmp.
+
+## Пример работы
+
+Исходное изображение:
+
+![Input image](examples/lenna.png)
+
+После применения фильтра vignette:
+
+![Vignette result](examples/lenna_vignette.png)
+
+## Сборка
+
+```bash
+mkdir build
+cd build
+cmake ..
+cmake --build .
