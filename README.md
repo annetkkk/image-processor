@@ -36,7 +36,7 @@
 ```bash
 ./image_processor input.bmp output.bmp -crop 800 600 -gs -blur 0.5
 
----
+```
 
 В этом примере программа:
 
