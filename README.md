@@ -50,11 +50,11 @@
 
 Исходное изображение:
 
-![Input image](examples/lenna.png)
+![Input image](lenna.png)
 
 После применения фильтра vignette:
 
-![Vignette result](examples/lenna_vignette.png)
+![Vignette result](lenna_vignette.png)
 
 ## Сборка
 
